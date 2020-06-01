@@ -1,0 +1,33 @@
+name: scan
+description: TCC Willian Varela
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  dio: ^3.0.9
+  rxdart: ^0.24.0
+  bloc_pattern: ^2.5.1
+  shared_preferences: ^0.5.7+2
+  image_picker: ^0.6.6+1
+  http: ^0.12.1
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/undraw_folder_x4ft.png
+    - images/undraw_photo_4yb9.png
