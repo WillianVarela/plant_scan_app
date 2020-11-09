@@ -6,15 +6,11 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  dio: ^3.0.9
-  rxdart: ^0.24.0
-  bloc_pattern: ^2.5.1
-  shared_preferences: ^0.5.7+2
-  image_picker: ^0.6.6+1
-  http: ^0.12.1
+  image_picker: ^0.6.6+1 # Câmera/Galeria
+  tflite: ^1.1.1 # Tensorflow mobile
   flutter:
     sdk: flutter
 
@@ -29,5 +25,4 @@ flutter:
   uses-material-design: true
 
   assets:
-    - images/undraw_folder_x4ft.png
-    - images/undraw_photo_4yb9.png
+    - assets/
